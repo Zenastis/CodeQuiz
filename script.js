@@ -12,6 +12,10 @@ function questionOne(){
         "Alerts"
     ]
 
+    if (answersQ1 === "alerts" ) {
+        alert('correct')
+    }
+    if (answersQ1 )
 }
 
 function questionTwo(){
