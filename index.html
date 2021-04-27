@@ -1,22 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CodeQuiz</title>
-</head>
-<body>
-    <div class=link1>View Highscores</div>
 
-    <div class=timer>time:</div>
-
-    <div class=></div>
-
-
-
-
-
-    <script src="script.js"></script>
-</body>
+<html>
+	<head>
+		<title>Code Quiz</title>
+		<meta charset="UTF-8">
+		<link href="quizcss.css" rel="stylesheet" type="text/css">
+        <script src = "quizjs.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div id="nav">
+			<div class="left">
+                <a onclick="getScore()" href="#"><h4 >View Highscore</h4></a>
+			</div>
+			<div class="right">
+				<h4>Time: <span id="timeLeft">0</span></h4>
+			</div>
+		</div>
+		
+		<div id="quiz">
+            <div id="quizBody">      
+                <h1>   
+                    JavaScript Quiz!
+                </h1>
+                <h3>
+					Click to play!   
+                </h3>
+                <button onclick="start()">Start!</button>
+            </div>
+        </div>
+	</body>
 </html>
