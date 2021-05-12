@@ -31,7 +31,7 @@ var score = 0;
 var currentQuestion = -1;
 var timeLeft = 0;
 var timer;
-var startbtn=document.getElementById("start");
+var startbtn = document.getElementById("start");
 
 function start() {
 
@@ -49,6 +49,7 @@ function start() {
 
     next();
 }
+startbtn.onclick = start
 
 
 function endGame() {
